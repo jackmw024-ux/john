@@ -1,0 +1,30 @@
+#board{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    border: 0px;
+}
+
+div{
+    border: 2px solid;
+    border-color: lightblue;
+}
+
+.x, .o{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.x{
+    color: red;
+    text-align: center;
+}
+.o{
+    color: blue;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
